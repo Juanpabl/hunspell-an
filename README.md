@@ -82,3 +82,9 @@ Aragonese Hunspell spelling dictionary following the orthography of the Academia
 Version 0.3.0 includes 21,060 dictionary entries, affix rules and a tested LibreOffice extension. This is a word-level spellchecker, not a grammar checker.
 
 The dictionary and affix files are available, at your option, under MPL 1.1, GPL 3.0 or later, or LGPL 3.0 or later. Distributed **WITHOUT WARRANTY** under the terms of the selected license. Full license texts are included in `licenses/`.
+
+## Documentación
+
+- [Instalación y configuración](INSTALACION.md)
+- [Cobertura en Common Voice](COBERTURA-COMMON-VOICE.md)
+- [Novedaz d’a versión 0.3.0](RELEASE-NOTES-0.3.0.md)
