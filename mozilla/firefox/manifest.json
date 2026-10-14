@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Corrector ortografico aragonés",
+  "version": "0.3.0",
+  "description": "Diccionario ortografico aragonés adaptau a la ortografía AAL.",
+  "author": "Santiago Paricio y Juan Pablo Martínez",
+  "homepage_url": "https://github.com/Juanpabl/hunspell-an",
+  "dictionaries": {
+    "an": "dictionaries/an_ES.dic"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "an-ES@dictionaries.addons.mozilla.org",
+      "strict_min_version": "61.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  }
+}

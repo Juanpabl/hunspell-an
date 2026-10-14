@@ -8,7 +8,13 @@ Incluye **21.060 dentradas** y reglas d’afixación que cheneran formas flexion
 
 ## Descarga e instalación
 
-Los paquets de distribución se publican en la sección **Releases** d’este repositorio.
+Descarga la versión 0.3.0 en [Releases](https://github.com/Juanpabl/hunspell-an/releases/tag/v0.3.0).
+
+- [Firefox: instalar dende Mozilla Add-ons](https://addons.mozilla.org/firefox/addon/corrector-ortografico-aragones/).
+- [Thunderbird: instalar dende Thunderbird Add-ons](https://addons.thunderbird.net/thunderbird/addon/corrector-ortografico-aragones/).
+- LibreOffice: descargar lo `.oxt` d’a Release.
+
+Los paquets de Firefox y Thunderbird d’esta distribución son las copias publicadas en los catalogos oficiales. Los dos han estau prebaus por lo mantenedor.
 
 ### LibreOffice
 
@@ -23,7 +29,14 @@ Si tiens unatro diccionario aragonés instalau, desactiva-lo u retira-lo pa evit
 
 Los fichers `an_ES.aff` y `an_ES.dic` son codificaus en UTF-8. Han d’estar chuntos y conservar lo mesmo nombre base.
 
-La instalación y configuración penden de cada aplicación. Lo paquet `.oxt` ye pa LibreOffice; Firefox y Thunderbird requieren un paquet propio.
+La instalación y configuración penden de cada aplicación. Lo paquet `.oxt` ye pa LibreOffice; cada `.xpi` ye pa la aplicación indicada en lo suyo nombre. Consulta [Instalación pa Mozilla](INSTALACION-MOZILLA.md).
+
+## Documentación
+
+- [Instalación en LibreOffice y Hunspell](INSTALACION.md)
+- [Instalación en Firefox y Thunderbird](INSTALACION-MOZILLA.md)
+- [Novedaz de 0.3.0](RELEASE-NOTES-0.3.0.md)
+- [Cobertura en Common Voice](COBERTURA-COMMON-VOICE.md)
 
 ## Ortografía y alcanz
 
@@ -82,9 +95,3 @@ Aragonese Hunspell spelling dictionary following the orthography of the Academia
 Version 0.3.0 includes 21,060 dictionary entries, affix rules and a tested LibreOffice extension. This is a word-level spellchecker, not a grammar checker.
 
 The dictionary and affix files are available, at your option, under MPL 1.1, GPL 3.0 or later, or LGPL 3.0 or later. Distributed **WITHOUT WARRANTY** under the terms of the selected license. Full license texts are included in `licenses/`.
-
-## Documentación
-
-- [Instalación y configuración](INSTALACION.md)
-- [Cobertura en Common Voice](COBERTURA-COMMON-VOICE.md)
-- [Novedaz d’a versión 0.3.0](RELEASE-NOTES-0.3.0.md)
