@@ -1,6 +1,6 @@
 # Corrector ortografico aragonés — Hunspell
 
-Diccionario ortografico aragonés adaptau a la **ortografía de l’Academia Aragonesa de la Lengua (AAL)**, pa aplicaciones compatibles con Hunspell.
+Diccionario ortografico aragonés adaptau a la **ortografía de l’Academia Aragonesa de la Lengua (AAL)**, pa aplicacions compatibles con Hunspell.
 
 **Versión 0.3.0 · 13 d’octubre de 2026 · Idioma: aragonés (`an-ES`).**
 
@@ -25,7 +25,7 @@ Los paquets de Firefox y Thunderbird d’esta distribución son las copias publi
 
 Si tiens unatro diccionario aragonés instalau, desactiva-lo u retira-lo pa evitar que los dos interviengan en la comprebación.
 
-### Hunspell y atras aplicaciones
+### Hunspell y atras aplicacions
 
 Los fichers `an_ES.aff` y `an_ES.dic` son codificaus en UTF-8. Han d’estar chuntos y conservar lo mesmo nombre base.
 
