@@ -1,0 +1,22 @@
+Aragonese Hunspell dictionary / Corrector ortografico aragonés
+
+Copyright (C) 2011 Santiago Paricio <sparicio@gmail.com>
+Copyright (C) 2011-2026 Juan Pablo Martínez <jpmart@unizar.es>
+
+SPDX-License-Identifier: MPL-1.1 OR GPL-3.0-or-later OR LGPL-3.0-or-later
+
+The dictionary (.dic) and affix rules (.aff) are available, at the
+recipient's option, under any one of the following licenses:
+
+- Mozilla Public License, version 1.1: licenses/MPL-1.1.txt
+- GNU General Public License, version 3.0 or later: licenses/GPL-3.0.txt
+- GNU Lesser General Public License, version 3.0 or later: licenses/LGPL-3.0.txt
+
+These are alternative licenses; compliance with all three simultaneously
+is not required. See the full license texts for the applicable terms and
+disclaimer of warranty.
+
+Lo diccionario y las reglas d'afixación se distribuyen baixo una
+trilicencia alternativa: lo destinatario puede triar MPL 1.1, GPL 3.0
+u posterior, u LGPL 3.0 u posterior. No ye menister cumplir las tres
+simultaniament. Consulta los textos completos en licenses/.

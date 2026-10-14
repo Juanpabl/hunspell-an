@@ -25,6 +25,20 @@ Los paquets de Firefox y Thunderbird d’esta distribución son las copias publi
 
 Si tiens unatro diccionario aragonés instalau, desactiva-lo u retira-lo pa evitar que los dos interviengan en la comprebación.
 
+### Linux / Hunspell
+
+En Debian y Ubuntu:
+
+```sh
+sudo apt install hunspell hunspell-an
+```
+
+Lo diccionario empaquetau puede ser anterior a 0.3.0. Pa emplegar esta entrega,
+descarga [hunspell-an-0.3.0.tar.gz](https://github.com/Juanpabl/hunspell-an/releases/download/v0.3.0/hunspell-an-0.3.0.tar.gz)
+y sigue las [instruccions d'instalación manual en Linux](INSTALACION-LINUX.md).
+Lo paquet incluye lo par `.aff`/`.dic`, documentación y licencias, sin precisar
+los paquets d'extensions de Firefox u LibreOffice.
+
 ### Hunspell y atras aplicacions
 
 Los fichers `an_ES.aff` y `an_ES.dic` son codificaus en UTF-8. Han d’estar chuntos y conservar lo mesmo nombre base.
@@ -34,6 +48,7 @@ La instalación y configuración penden de cada aplicación. Lo paquet `.oxt` ye
 ## Documentación
 
 - [Instalación en LibreOffice y Hunspell](INSTALACION.md)
+- [Instalación en Linux y descarga manual de 0.3.0](INSTALACION-LINUX.md)
 - [Instalación en Firefox y Thunderbird](INSTALACION-MOZILLA.md)
 - [Novedaz de 0.3.0](RELEASE-NOTES-0.3.0.md)
 - [Cobertura en Common Voice](COBERTURA-COMMON-VOICE.md)
@@ -50,6 +65,8 @@ La cobertura en lo corpus aragonés de **Common Voice v25** ye de **88,66 % per 
 
 - `corrector-ortografico-aragones.0.3.0.oxt`: extensión pa LibreOffice.
 - `an_ES.dic` y `an_ES.aff`: fichers Hunspell en UTF-8.
+- `hunspell-an-0.3.0.tar.gz`: diccionario, documentación y licencias pa Hunspell.
+- `LICENSE`: explicación d'a trilicencia alternativa.
 - `INSTALACION.md`: instrucciones d’instalación y actualización.
 - `RELEASE-NOTES-0.3.0.md`: novedaz, validación y limitacions.
 - `COBERTURA-COMMON-VOICE.md`: cobertura d’o corpus de referencia.
@@ -95,3 +112,4 @@ Aragonese Hunspell spelling dictionary following the orthography of the Academia
 Version 0.3.0 includes 21,060 dictionary entries, affix rules and a tested LibreOffice extension. This is a word-level spellchecker, not a grammar checker.
 
 The dictionary and affix files are available, at your option, under MPL 1.1, GPL 3.0 or later, or LGPL 3.0 or later. Distributed **WITHOUT WARRANTY** under the terms of the selected license. Full license texts are included in `licenses/`.
+
