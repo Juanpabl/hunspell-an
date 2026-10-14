@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>hunspell-an-seamonkey@juanpabl.github.io</em:id>
+    <em:version>0.3.0</em:version>
+    <em:type>64</em:type>
+    <em:unpack>true</em:unpack>
+    <em:name>Corrector ortografico aragonés — SeaMonkey</em:name>
+    <em:description>Diccionario ortografico aragonés adaptau a la ortografía AAL.</em:description>
+    <em:creator>Santiago Paricio y Juan Pablo Martínez</em:creator>
+    <em:homepageURL>https://github.com/Juanpabl/hunspell-an</em:homepageURL>
+    <em:targetApplication>
+      <Description>
+        <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+        <em:minVersion>2.53</em:minVersion>
+        <em:maxVersion>2.53.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>
