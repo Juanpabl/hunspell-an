@@ -16,7 +16,7 @@ output.mkdir(parents=True, exist_ok=True)
 base = {
     'manifest_version': 2,
     'name': 'Corrector ortografico aragonés',
-    'version': '0.3.0',
+    'version': '0.4.0',
     'description': 'Diccionario ortografico aragonés adaptau a la ortografía AAL.',
     'author': 'Santiago Paricio y Juan Pablo Martínez',
     'homepage_url': 'https://github.com/Juanpabl/hunspell-an',
@@ -37,7 +37,7 @@ for app, minimum in [('firefox', '61.0'), ('thunderbird', '102.0')]:
     }
     for license_file in (source / 'licenses').glob('*.txt'):
         payload['licenses/' + license_file.name] = license_file.read_bytes()
-    xpi = output / f'corrector-ortografico-aragones.0.3.0-{app}-unsigned.xpi'
+    xpi = output / f'corrector-ortografico-aragones.0.4.0-{app}-unsigned.xpi'
     with zipfile.ZipFile(xpi, 'w', zipfile.ZIP_DEFLATED) as archive:
         for name, data in sorted(payload.items()):
             info = zipfile.ZipInfo(name, date_time=(2026, 10, 13, 0, 0, 0))
