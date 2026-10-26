@@ -1,6 +1,6 @@
-# Corrector aragonés 0.3.0 pa SeaMonkey
+# Corrector aragonés 0.4.0 pa SeaMonkey
 
-Paquet: `corrector-ortografico-aragones.0.3.0-seamonkey.xpi`.
+Paquet: `corrector-ortografico-aragones.0.4.0-seamonkey.xpi`.
 
 Ye un diccionario clásico con `install.rdf` (tipo 64), sin scripts,
 exclusivament pa SeaMonkey. Emplega l'identificador propio
@@ -19,7 +19,7 @@ candidato pa prebas antes de puyar-lo al catalogo; no contiene firma digital.
 
 1. Ubrir lo chestor de complementos de SeaMonkey, en Ferramientas.
 2. Emplegar Instalar complemento desde archivo y seleccionar lo `.xpi`.
-3. Reiniciar SeaMonkey si lo pide y comprobar que figura la versión 0.3.0.
+3. Reiniciar SeaMonkey si lo pide y comprobar que figura la versión 0.4.0.
 4. En un campo de texto multilínia, activar la revisión ortografica y
    seleccionar Aragonés. Se puede prebar tamién redactando un mensache.
 5. Con solo lo diccionario aragonés activau, escribir:

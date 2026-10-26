@@ -1,9 +1,9 @@
-# Instalación d'o corrector aragonés 0.3.0
+# Instalación d'o corrector aragonés 0.4.0
 
 ## LibreOffice
 
 1. Ubrir lo chestor d'extensions de LibreOffice.
-2. Triar Anyadir y triar `corrector-ortografico-aragones.0.3.0.oxt`.
+2. Triar Anyadir y triar `corrector-ortografico-aragones.0.4.0.oxt`.
 3. Completar la instalación y reiniciar LibreOffice.
 4. Asignar l'idioma aragonés a lo texto y activar la revisión ortografica.
 

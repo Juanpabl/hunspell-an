@@ -1,36 +1,11 @@
-# Instalación en Firefox y Thunderbird
+# Firefox y Thunderbird — 0.4.0
 
-Versión 0.3.0. Los dos paquets han estau prebaus por lo mantenedor.
+Instalar dende los catalogos oficiales u dende los XPI d’esta carpeta:
+- corrector-ortografico-aragones.0.4.0-firefox.xpi
+- corrector-ortografico-aragones.0.4.0-thunderbird.xpi
 
-## Firefox
+En Complementos y temas, seleccionar Instalar complemento desde archivo. Activar la revisión ortografica y seleccionar aragonés. Desactivar atros correctors aragoneses pa evitar interferencias.
 
-Instalar dende https://addons.mozilla.org/firefox/addon/corrector-ortografico-aragones/
-u emplegar `corrector-ortografico-aragones.0.3.0-firefox.xpi`, descargau de Mozilla Add-ons.
-Esta copia contiene las firmas digitales de Mozilla. En Firefox, ubrir
-Complementos y temas y emplegar Instalar complemento desde archivo.
+Compatibilidat declarada: Firefox de escritorio 61.0+; Thunderbird 102.0+. No significa que cada versión intermedia s’haya prebau. SeaMonkey emplega un paquet separau.
 
-Activar Comprobar ortografía en un campo de texto multilínia y seleccionar Aragonés.
-
-## Thunderbird
-
-Instalar dende https://addons.thunderbird.net/thunderbird/addon/corrector-ortografico-aragones/
-u emplegar `corrector-ortografico-aragones.0.3.0-thunderbird.xpi`.
-En Complementos y temas, ubrir lo menú d'o engranache y triar
-Instalar complemento desde archivo. En la redacción d'un mensache,
-activar la revisión ortografica y seleccionar Aragonés.
-
-Esta copia ye la publicada en lo catalogo de Thunderbird y no contiene firma digital.
-
-## Compatibilidat declarada
-
-- Firefox de escritorio 61.0 u posterior.
-- Thunderbird 102.0 u posterior.
-
-Los mínimos declaraus no significan que cada versión intermedia s'haya prebau.
-Los paquets no son pa SeaMonkey, Chrome, Edge, Brave u Opera.
-
-## Preba
-
-Las formas `charrábaz chóvens árbols diré puedo saldré me'n` han d'estar acceptadas.
-La parola artificial `zzzxqvzz` ha d'estar marcada. Evitar la interferencia
-de diccionarios personals u d'atros diccionarios activaus.
+Los tres XPI son las copias publicadas d’os catalogos. Firefox conserva los fichers de firma de Mozilla; Thunderbird y SeaMonkey son identicos a los paquets puyaus. Los AFF/DIC son los definitivos. Lo README interno conserva la etiqueta «paquet de pruebas» d’a copia puyada; no s’ha modificau lo conteniu d’os XPI publicaus.
