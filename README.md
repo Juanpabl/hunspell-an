@@ -4,9 +4,9 @@ Diccionario ortografico aragonés adaptau a la **ortografía de l’Academia Ara
 
 **Versión 0.4.0 · 26 d’octubre de 2026 · Idioma: aragonés (`an-ES`).**
 
-Incluye **21.098 dentradas** y reglas d’afixación que cheneran formas flexionadas y derivadas. Lo paquet d’esta versión ha estau prebau en LibreOffice.
+Incluye **21.098 dentradas** y reglas d’afixación que cheneran formas flexionadas y derivadas. Lo paquet d’esta versión ye estau prebau en LibreOffice.
 
-La 0.4.0 revisa apostrofacions y encliticos. Consulta las [novedaz](RELEASE-NOTES-0.4.0.md). Los enlaces a v0.4.0 funcionarán quan se publique la release.
+La 0.4.0 revisa apostrofacions y encliticos. Consulta las [novedaz](RELEASE-NOTES-0.4.0.md). Los enlaces a v0.4.0 funcionarán cuan se publique la release.
 
 ## Descarga e instalación
 
@@ -69,7 +69,7 @@ La cobertura mesurada pa **0.3.0** en lo corpus aragonés de **Common Voice v25*
 - `an_ES.dic` y `an_ES.aff`: fichers Hunspell en UTF-8.
 - `hunspell-an-0.4.0.tar.gz`: diccionario, documentación y licencias pa Hunspell.
 - `LICENSE`: explicación d'a trilicencia alternativa.
-- `INSTALACION.md`: instrucciones d’instalación y actualización.
+- `INSTALACION.md`: instruccions d’instalación y actualización.
 - `RELEASE-NOTES-0.4.0.md`: novedaz, validación y limitacions.
 - `COBERTURA-COMMON-VOICE.md`: cobertura d’o corpus de referencia.
 - `licenses/`: textos completos d’as licencias.
