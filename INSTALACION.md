@@ -1,9 +1,11 @@
-# Instalación d'o corrector aragonés 0.4.0
+# Instalación d'o corrector aragonés 1.0.0
+
+Esta carpeta contiene los fuentes d’a candidata. Lo OXT citau contino ye un artefacto local de pruebas, no una descarga publicada en GitHub.
 
 ## LibreOffice
 
 1. Ubrir lo chestor d'extensions de LibreOffice.
-2. Triar Anyadir y triar `corrector-ortografico-aragones.0.4.0.oxt`.
+2. Triar Anyadir y triar `corrector-ortografico-aragones.1.0.0.oxt`.
 3. Completar la instalación y reiniciar LibreOffice.
 4. Asignar l'idioma aragonés a lo texto y activar la revisión ortografica.
 
@@ -21,4 +23,7 @@ Lo par `an_ES.dic` y `an_ES.aff` ye codificau en UTF-8; mantener ambos archivos 
 hunspell -i UTF-8 --no-default-personal -d ./an_ES -l texto.txt
 ```
 
-Lo corrector ha estau validau en LibreOffice pa Windows, Firefox y Thunderbird.
+Esta candidata s'ha comprebau con Hunspell nativo 1.7.2. La instalación y la segmentación d'esta versión exacta en LibreOffice/Windows, Firefox y atras aplicacions requieren una prueba propia.
+
+Lo texto ye UTF-8 y los identificadors d’afixos son numericos (FLAG num).
+OpenOffice requiere que la versión instalada reconoixca aragonés como idioma.

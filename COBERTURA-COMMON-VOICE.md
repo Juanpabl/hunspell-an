@@ -1,28 +1,22 @@
-# Cobertura de Common Voice — versión 0.3.0
+# Cobertura en Common Voice — 1.0.0
 
-Comprebación: 13-10-2026, Hunspell 1.7.2, corpus de 10.460 ringleras.
+**92,81 %** d'ocurrencias reconocidas (80,546 de
+86,783). Quedan 6,237 ocurrencias desconocidas,
+4,192 formas distintas.
 
-| Mida | Resultau |
-|---|---:|
-| Ocurrencias de parolas evaluadas | 86.783 |
-| Ocurrencias reconoixidas | 76.941 |
-| Ocurrencias sin reconoixer | 9.842 |
-| **Cobertura por ocurrencias** | **88,66 %** |
-| Proporción sin reconoixer | 11,34 % |
-| Formas distintas evaluadas, distinguindo mayusclas | 13.205 |
-| Formas distintas reconoixidas | 7.068 |
-| Cobertura por formas distintas | 53,53 % |
+Corpus UTF-8: frases_para_hunspell.txt.
+SHA-256: `c1c468650fd3fa907f9d00605fd3864043dc61fa2ae03606bfbd363d5db7ff5f`.
+Motor: Hunspell 1.7.2, mesmos texto, opciones y segmentación: `-i UTF-8
+--no-default-personal -d ./an_ES -G` y `-l`. Denominador: reconocidas +
+desconocidas emitidas por lo motor; las marcas y numeros omitius no cuentan.
+Los apostrofos pueden segmentar-se; no ye una medida por frase completa.
 
-La cifra principal pondera per frecuencia: cada aparición d'una parola conta. La cifra de formas distintas da lo mesmo peso a una forma que amaneixe una vegada y a unatra muito frecuent; son medidas diferents.
+Frente a la instantania anterior a las zagueras series 
+No comparar porcentaches de corpus u segmentacions diferents como si fuesen
+la mesma mesura. Las desconocidas no son automaticament errors y la cobertura
+no certifica precisión. Listau por frecuencia en o reposte de treballo:
+`desarrollo/fase1/desconocidas-por-frecuencia.tsv`.
 
-Formula: 100 × reconoixidas / (reconoixidas + desconoixidas).
-
-S'executan Hunspell `-G` y `-l` sobre lo mesmo texto con o mesmo diccionario, codificación UTF-8 y sin diccionario personal predeterminau. Se conserva la suya segmentación nativa; los signos y numeros que no reporta no dentran en o denominador. Los apóstrofos pueden dividir las parolas en components. Las dos listas de formas reconoixidas y desconoixidas no se solapan en esta mida.
-
-La cobertura no ye un percentache de corrección normativa ni gramatical: puede haber-ie formas correctas ausents, erratas presents en o corpus y parolas reconoixidas pero inadecuadas en contexto. Esta revisión no mide totas las posibles falsas acceptacions.
-
-En a primera preba i heba 17.048 ocurrencias sin reconoixer; agora i hai 9.842, una reducción neta de 7.206 (42,3 %). Este percentache de reducción ye diferent d'a cobertura final d'o 88,66 %.
-
-Resultaus y SHA-256 d'o texto/diccionario en `../corpus-results/frases_pa_hunspell/0.3/summary.json`; listas completas en `recognized-occurrences.txt` y `unknown-occurrences.txt` d'ixe directorio. Lo calculo se reproduz per medio de `check_corpus.py`.
-
-La cobertura inicial yera d'o 80,36 % (69.735 ocurrencias reconoixidas); la final aconsigue lo 88,66 %, una millora de 8,30 %.
+Par exacto:
+- DIC: `733dce3919b72db3e844228733d14936ebebde5c59f6a5b49e73d47390dde69d`
+- AFF: `7b1763cb88b5e2dda4d8f57780541225f0b08a6c6867b2d681183323bea87b61`
