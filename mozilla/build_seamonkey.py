@@ -17,7 +17,7 @@ rdf = '''<?xml version="1.0" encoding="UTF-8"?>
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
     <em:id>hunspell-an-seamonkey@juanpabl.github.io</em:id>
-    <em:version>0.4.0</em:version>
+    <em:version>1.0.0</em:version>
     <em:type>64</em:type>
     <em:unpack>true</em:unpack>
     <em:name>Corrector ortografico aragonés — SeaMonkey</em:name>
@@ -38,14 +38,15 @@ payload = {
     'install.rdf': rdf,
     'dictionaries/an.dic': (source / 'an_ES.dic').read_bytes(),
     'dictionaries/an.aff': (source / 'an_ES.aff').read_bytes(),
-    'README_an_ES.txt': (source / 'README_an_ES.txt').read_bytes(),
+    'README_an_ES.txt': (source / 'README_an_ES.txt').read_bytes().replace(b'PROCEDENCIA.md', b'PROCEDENCIA.txt'),
+        'PROCEDENCIA.txt': (source / 'PROCEDENCIA.md').read_bytes(),
 }
 for f in (source / 'licenses').glob('*.txt'):
     payload['licenses/' + f.name] = f.read_bytes()
-xpi = output / 'corrector-ortografico-aragones.0.4.0-seamonkey.xpi'
+xpi = output / 'corrector-ortografico-aragones.1.0.0-seamonkey.xpi'
 with zipfile.ZipFile(xpi, 'w', zipfile.ZIP_DEFLATED) as z:
     for name, data in sorted(payload.items()):
-        info = zipfile.ZipInfo(name, date_time=(2026, 10, 13, 0, 0, 0))
+        info = zipfile.ZipInfo(name, date_time=(2026, 11, 5, 0, 0, 0))
         info.compress_type = zipfile.ZIP_DEFLATED
         info.external_attr = 0o100644 << 16
         z.writestr(info, data)
@@ -57,7 +58,7 @@ with zipfile.ZipFile(xpi) as z:
     manifest = root.find('rdf:Description', ns)
     assert manifest.find('em:type', ns).text == '64'
     assert manifest.find('em:id', ns).text == 'hunspell-an-seamonkey@juanpabl.github.io'
-    assert manifest.find('em:version', ns).text == '0.4.0'
+    assert manifest.find('em:version', ns).text == '1.0.0'
     assert len(manifest.findall('em:targetApplication', ns)) == 1
     assert manifest.find('em:targetApplication/rdf:Description/em:id', ns).text == '{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}'
     for name, data in payload.items():

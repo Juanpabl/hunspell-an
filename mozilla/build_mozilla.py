@@ -16,7 +16,7 @@ output.mkdir(parents=True, exist_ok=True)
 base = {
     'manifest_version': 2,
     'name': 'Corrector ortografico aragonés',
-    'version': '0.4.0',
+    'version': '1.0.0',
     'description': 'Diccionario ortografico aragonés adaptau a la ortografía AAL.',
     'author': 'Santiago Paricio y Juan Pablo Martínez',
     'homepage_url': 'https://github.com/Juanpabl/hunspell-an',
@@ -33,14 +33,15 @@ for app, minimum in [('firefox', '61.0'), ('thunderbird', '102.0')]:
         'manifest.json': (json.dumps(manifest, ensure_ascii=False, indent=2) + '\n').encode('utf-8'),
         'dictionaries/an_ES.aff': (source / 'an_ES.aff').read_bytes(),
         'dictionaries/an_ES.dic': (source / 'an_ES.dic').read_bytes(),
-        'README_an_ES.txt': (source / 'README_an_ES.txt').read_bytes(),
+        'README_an_ES.txt': (source / 'README_an_ES.txt').read_bytes().replace(b'PROCEDENCIA.md', b'PROCEDENCIA.txt'),
+        'PROCEDENCIA.txt': (source / 'PROCEDENCIA.md').read_bytes(),
     }
     for license_file in (source / 'licenses').glob('*.txt'):
         payload['licenses/' + license_file.name] = license_file.read_bytes()
-    xpi = output / f'corrector-ortografico-aragones.0.4.0-{app}-unsigned.xpi'
+    xpi = output / f'corrector-ortografico-aragones.1.0.0-{app}-unsigned.xpi'
     with zipfile.ZipFile(xpi, 'w', zipfile.ZIP_DEFLATED) as archive:
         for name, data in sorted(payload.items()):
-            info = zipfile.ZipInfo(name, date_time=(2026, 10, 13, 0, 0, 0))
+            info = zipfile.ZipInfo(name, date_time=(2026, 11, 5, 0, 0, 0))
             info.compress_type = zipfile.ZIP_DEFLATED
             info.external_attr = 0o100644 << 16
             archive.writestr(info, data)
