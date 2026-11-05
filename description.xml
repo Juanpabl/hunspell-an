@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description xmlns="http://openoffice.org/extensions/description/2006" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <identifier value="org.aragones.hunspell.aal"/>
+  <version value="1.0.0"/>
+  <display-name>
+    <name lang="en">Aragonese spelling dictionary 1.0.0</name>
+    <name lang="es">Corrector ortográfico aragonés 1.0.0</name>
+    <name lang="an">Corrector ortografico aragonés 1.0.0</name>
+  </display-name>
+  <publisher><name lang="es" xlink:href="mailto:jpmart@unizar.es">Santiago Paricio y Juan Pablo Martínez</name></publisher>
+  <extension-description><src lang="an" xlink:href="README_an_ES.txt"/></extension-description>
+</description>
