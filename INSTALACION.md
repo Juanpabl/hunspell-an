@@ -4,16 +4,27 @@ Esta carpeta contiene los fuentes d’a candidata. Lo OXT citau contino ye un ar
 
 ## LibreOffice
 
-1. Ubrir lo chestor d'extensions de LibreOffice.
-2. Triar Anyadir y triar `corrector-ortografico-aragones.1.0.0.oxt`.
-3. Completar la instalación y reiniciar LibreOffice.
-4. Asignar l'idioma aragonés a lo texto y activar la revisión ortografica.
+### LibreOffice 26.8.3 u posterior
 
-L'identificador permanent d'a extensión ye `org.aragones.hunspell.aal`. Pa actualizar versions futuras d'esta extensión, instalar lo nuevo OXT dende lo mesmo chestor.
+Dende LibreOffice **26.8.3**, lo corrector aragonés incluyiu ye la
+versión **1.0.0**, adaptada a la ortografía de l’Academia Aragonesa de
+la Lengua (AAL).
 
-Si i hai unatro diccionario aragonés instalau, desactivar-lo u retirar-lo pa privar que toz dos interviengan en a comprebación.
+Si lo diccionario ye instalau, asigna **Aragonés** como luenga d’o texto
+y activa la revisión ortografica. En Linux, la disponibilidat
+d’o diccionario puede depender d’os paquets instalaus d’a distribución.
 
-La revisión ortografica puede veyer-se influyida per l'idioma d'o texto y per las parolas anyadidas a lo diccionario personal. Comprebar los dos achustes si los resultaus son inasperaus.
+### Versions anteriors u instalacions sin lo diccionario
+
+1. Baixa lo `.oxt` 1.0.0 dende lo
+   [catálogo oficial d’extensions de LibreOffice](https://extensions.libreoffice.org/en/extensions/show/corrector-ortografico-aragones)
+   u dende la [release v1.0.0 en GitHub](https://github.com/Juanpabl/hunspell-an/releases/tag/v1.0.0).
+2. Ubre lo chestor d’extensions de LibreOffice, tría **Anyadir** y
+   selecciona lo fichero `.oxt`.
+3. Reinicia LibreOffice, asigna **Aragonés** como luenga d’o texto y
+   activa la revisión ortografica.
+
+Si ya tiens instalau unatro corrector aragonés como extensión, desactiva-lo pa privar interferencias.
 
 ## Hunspell y otras aplicaciones
 
