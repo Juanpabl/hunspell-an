@@ -16,12 +16,12 @@ Consulta las [notas d’a versión](RELEASE-NOTES-1.0.0.md) y la [cobertura Comm
 
 ## Descarga e instalación
 
-Los paquets definitivos s’ofrirán en [la release v1.0.0](https://github.com/Juanpabl/hunspell-an/releases/tag/v1.0.0) quan se publique. Mientras tanto, las versions ya publicadas son en [Releases](https://github.com/Juanpabl/hunspell-an/releases).
+Los paquez son disponibles en [a release v1.0.0](https://github.com/Juanpabl/hunspell-an/releases/tag/v1.0.0).
 
-- **LibreOffice:** instalar lo `.oxt` dende lo chestor d’extensions y asignar aragonés a lo texto.
+- **LibreOffice:** a partir d’a versión 26.8.3, LibreOffice incluye lo corrector aragonés 1.0.0. Si lo diccionario ye instalau, nomás cal asignar l’aragonés como luenga d’o texto y activar la revisión ortografica. Pa versions anteriors u instalacions sin lo diccionario, puez baixar lo .oxt dende lo catalogo oficial d’[extensions de LibreOffice](https://extensions.libreoffice.org/en/extensions/show/corrector-ortografico-aragones).
 - **Firefox:** instalar dende [Mozilla Add-ons](https://addons.mozilla.org/firefox/addon/corrector-ortografico-aragones/). Pa instalación manual, emplegar lo XPI firmau de Firefox.
 - **Thunderbird:** instalar dende [Thunderbird Add-ons](https://addons.thunderbird.net/thunderbird/addon/corrector-ortografico-aragones/), u emplegar lo suyo XPI especifico.
-- **SeaMonkey:** emplegar lo XPI clásico especifico, quan siga disponible. No ye lo mesmo paquet que lo de Thunderbird.
+- **SeaMonkey:** emplegar lo XPI clásico especifico, cuan siga disponible. No ye lo mesmo paquet que lo de Thunderbird.
 - **Hunspell:** conservar `an_ES.aff` y `an_ES.dic` chuntos, en UTF-8. Veiga-se [INSTALACION.md](INSTALACION.md).
 
 La versión disponible en cada catalogo puede diferir; comprobar-la antes de instalar. La publicación en GitHub no actualiza automaticament los catalogos ni lo diccionario incluyiu en LibreOffice.
