@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "native_library": "libhunspell-1.7.so.0",
+  "case_rows": 1160,
+  "checks": 1173,
+  "failures": [],
+  "dictionary_sha256": {
+    ".dic": "7a2ec29494bcc1b3c97b4624875776f4146cc8e4a3db4cb926f667c9d4941289",
+    ".aff": "1f7338d012b4217ccd3227b57162bb9899868d0e867ae39f4ea687748deb5f30"
+  },
+  "cases_sha256": "ed1917e719ac8783c29c075d6209579e4ea204d6c583a837f2dd6bc6c530721e",
+  "scope": "Normal segmentation for PALABRA; temporary BREAK 0 for AFIJACION. Word-level regression tests, not grammatical or corpus precision."
+}
