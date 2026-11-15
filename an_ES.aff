@@ -2716,11 +2716,11 @@ SFX 59 u vismos au
 SFX 59 u vismas au
 
 # 7 Extensión de superlativos ; d’ tras la flexión, articlo solo singular.
-SFX 7 Y 16
-SFX 7 o ismo/36,53 [^cg]o
-SFX 7 o isma/36,73 [^cg]o
-SFX 7 o ismos/36 [^cg]o
-SFX 7 o ismas/36 [^cg]o
+SFX 7 Y 24
+SFX 7 o ismo/36,53 [^cgiz]o
+SFX 7 o isma/36,73 [^cgiz]o
+SFX 7 o ismos/36 [^cgiz]o
+SFX 7 o ismas/36 [^cgiz]o
 SFX 7 e ismo/36,53 e
 SFX 7 e isma/36,73 e
 SFX 7 e ismos/36 e
@@ -2733,6 +2733,14 @@ SFX 7 go guismo/36,53 go
 SFX 7 go guisma/36,73 go
 SFX 7 go guismos/36 go
 SFX 7 go guismas/36 go
+SFX 7 zo cismo/36,53 zo
+SFX 7 zo cisma/36,73 zo
+SFX 7 zo cismos/36 zo
+SFX 7 zo cismas/36 zo
+SFX 7 io ismo/36,53 io
+SFX 7 io isma/36,73 io
+SFX 7 io ismos/36 io
+SFX 7 io ismas/36 io
 
 # 8 Extensión de superlativos ; d’ tras la flexión, articlo solo singular.
 SFX 8 Y 32
@@ -17905,3 +17913,45 @@ SFX 234 0 ió/35 .
 SFX 234 0 ión/35 .
 SFX 234 0 iórez/35 .
 SFX 234 0 o/35 .
+# flexión restrinchida; no ampliar los plurals a chenero.
+
+SFX 235 Y 4
+SFX 235 ón ons ón
+SFX 235 ún uns ún
+SFX 235 z ces z
+SFX 235 t z [^n]t
+
+SFX 236 Y 2
+SFX 236 0 a/73 [^aeiouáéíóú]
+SFX 236 0 as [^aeiouáéíóú]
+
+SFX 237 Y 2
+SFX 237 or era/73 or
+SFX 237 or eras or
+
+SFX 238 Y 3
+SFX 238 és esa/73 és
+SFX 238 és esas és
+SFX 238 és eses és
+
+SFX 239 Y 2
+SFX 239 ón ona/73 ón
+SFX 239 ón onas ón
+
+SFX 240 Y 3
+SFX 240 u da/73 u
+SFX 240 u das u
+SFX 240 u us u
+
+# Batch006: male-only -an plural, regular u/a, feminine -an.
+SFX 241 Y 1
+SFX 241 án ans án
+
+SFX 242 Y 2
+SFX 242 u a/73 u
+SFX 242 u as u
+
+SFX 243 Y 2
+SFX 243 án ana/73 án
+SFX 243 án anas án
+
