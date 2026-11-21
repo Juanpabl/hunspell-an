@@ -17955,3 +17955,37 @@ SFX 243 Y 2
 SFX 243 án ana/73 án
 SFX 243 án anas án
 
+# Plurals con cambio d’accento: imachen → imáchens, bendamen → bendámens, bestiamen → bestiámens, caballamen → caballámens
+SFX 244 Y 24
+SFX 244 achen áchens achen
+SFX 244 amen ámens amen
+SFX 244 arguin árguins arguin
+SFX 244 axon áxons axon
+SFX 244 ermin érmins ermin
+SFX 244 imen ímens imen
+SFX 244 iquen íquens iquen
+SFX 244 irchen írchens irchen
+SFX 244 olen ólens olen
+SFX 244 olmen ólmens olmen
+SFX 244 omen ómens omen
+SFX 244 orden órdens orden
+SFX 244 osen ósens osen
+SFX 244 oven óvens oven
+SFX 244 umen úmens umen
+SFX 244 ápiz apices ápiz
+SFX 244 ás ases ás
+SFX 244 éndiz endices éndiz
+SFX 244 érez ereces érez
+SFX 244 índiz indices índiz
+SFX 244 ís ises ís
+SFX 244 ódex odexes ódex
+SFX 244 ós oses ós
+SFX 244 ús uses ús
+
+# Variants nominals masculinas en -ano e -ino
+SFX 245 Y 4
+SFX 245 án ano án
+SFX 245 án anos án
+SFX 245 ín ino ín
+SFX 245 ín inos ín
+
