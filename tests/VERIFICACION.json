@@ -1,13 +1,13 @@
 {
   "status": "PASS",
-  "native_library": "libhunspell-1.7",
-  "case_rows": 28159,
-  "checks": 29952,
+  "native_library": "/home/bio/juanpabl/Work/software/miniconda3/envs/hunspell/lib/libhunspell-1.7.so.0",
+  "case_rows": 34549,
+  "checks": 36344,
   "failures": [],
   "dictionary_sha256": {
-    ".dic": "bd51f9077b9208daefd2397ed2118df48d75c882b4b3429a4b645c283bbbbd1d",
-    ".aff": "6c40cb99e53864916f2ab72fde749a13e3fc6f64422b3a1175db7c543bc9ca9e"
+    ".dic": "2eddd5cc7acd45a8e651864b29cc5a6442114eddf900d43292fbe7bbb9dd93c6",
+    ".aff": "bf204099f83a3d6a2c99027968b13f6a47b816d4c36c81a8092321c0f9c18152"
   },
-  "cases_sha256": "7eabf747483557d55136721a4419f59470add1adac43015128d9ab27dc8c0955",
+  "cases_sha256": "c58610db586404ff9d137993ae3bb6691263e6f17ae979fb1c4a4923042ca8f0",
   "scope": "Normal segmentation for PALABRA; temporary BREAK 0 for AFIJACION. Word-level regression tests, not grammatical or corpus precision."
 }
