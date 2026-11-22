@@ -1,11 +1,19 @@
-# Firefox y Thunderbird — 0.4.0
+# Firefox y Thunderbird — 1.1.0
 
-Instalar dende los catalogos oficiales u dende los XPI d’esta carpeta:
-- corrector-ortografico-aragones.0.4.0-firefox.xpi
-- corrector-ortografico-aragones.0.4.0-thunderbird.xpi
+Emplegar lo paquet especifico de cada aplicación:
 
-En Complementos y temas, seleccionar Instalar complemento desde archivo. Activar la revisión ortografica y seleccionar aragonés. Desactivar atros correctors aragoneses pa evitar interferencias.
+- corrector-ortografico-aragones.1.1.0-firefox.xpi: copia firmada pa distribución.
+- corrector-ortografico-aragones.1.1.0-thunderbird.xpi: paquet de Thunderbird.
 
-Compatibilidat declarada: Firefox de escritorio 61.0+; Thunderbird 102.0+. No significa que cada versión intermedia s’haya prebau. SeaMonkey emplega un paquet separau.
+Lo constructor produce XPI con sufixo -unsigned. No s'han de confundir con
+lo fichero firmau y definitivu de Firefox. Los paquets contienen lo mesmo
+par DIC/AFF que los fuentes; las firmas pueden añadir metadatos al ZIP.
 
-Los tres XPI son las copias publicadas d’os catalogos. Firefox conserva los fichers de firma de Mozilla; Thunderbird y SeaMonkey son identicos a los paquets puyaus. Los AFF/DIC son los definitivos. Lo README interno conserva la etiqueta «paquet de pruebas» d’a copia puyada; no s’ha modificau lo conteniu d’os XPI publicaus.
+
+Reconstrucción, dende la raíz d'os fuentes:
+
+```sh
+python mozilla/build_mozilla.py . /ruta/ta/paquets
+```
+
+Lo script leye los manifests revisaus de mozilla/firefox y mozilla/thunderbird.

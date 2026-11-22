@@ -1,22 +1,29 @@
-# Lecturas y limits d'a 0.4.0
+# Lecturas y limits d'a 1.1.0
 
-La revisión verifica apostrofacions y la autorización morfolochica d'encliticos.
-No certifica cada posible contexto sintactico ni revisa exhaustivament lo lexico.
-Apertium s'emplega como referencia fixada de metadatos, sin importación masiva.
+Lo corrector reconoce parolas y formas flexionadas; no fa análisis sintactico
+ni revisión gramatical. Una cadena s'accepta si tiene beluna lectura válida,
+anque en un contexto concreto pueda estar incorrecta.
 
-Una cadena puede tener lectura nominal y verbal; se conserva si tiene una
-lectura válida. La segmentación por guión se mantiene por decisión expresa.
-Lo motor y la interficie d'una aplicación se prueban per separau.
+Se conservan las revisions d'apostrofación y encliticos d'a 0.4.0. Lo guión y
+los apostrofos pueden segmentar-se de maneras diferents seguntes l'aplicación.
+Cal distinguir la autorización d'afixos d'Hunspell d'a tokenización de la
+interficie. No se puede deducir d'una prueba aislada que toda frase ye correcta.
 
-La cobertura lexica heredada tamién tiene omisions: por exemplo, escritoras no
-se reconoixe ni en la base 0.3.0 ni en esta candidata. No se presenta como una
-regresión introducida por esta revisión; corresponde revisar la flexión y
-cobertura sistematica en la fase d'Apertium. Las pruebas manuals emplegan
-formas admitidas per lo diccionario pa no atribuir una falta de cobertura a
-una regla d'apostrofación.
+Las incorporacions d'Apertium y las fuentes históricas se revisan por categorías
+y paradigmas. Las variants normativas pueden estar en Hunspell; las grafías
+no normativas toleradas nomás pa l'analís en Apertium no s'importan por defecto.
+DicAra s'emplega como referencia lexical, no como incorporación indiscriminada.
 
-Espera tiene una lectura femenina nominal y otra verbal analizable (variante
-de aspera). Se conserva l'espera, ya admitida en 0.3.0, como lectura verbal
-posible, sin ampliar las combinacions d'atros pronombres ni transmitir l' a
-la flexión nominal. La flag p queda restrinchida a ixa forma. La decisión
-lexica sobre las variantes exclusivas d'análisis corresponde a la fase 1.
+La batería actual contiene comprobacions positivas y negativas de parolas y
+autorización d'afixos. Sus 36.344 comprobacions no tienen lo mesmo alcance que
+los recuentos históricos d'atras versions; no se suman ni se comparan como si
+fuesen una mesma batería. Los resultados exactos son en tests/VERIFICACION.json.
+
+La cobertura Common Voice mide reconocimiento por ocurrencias emitidas por
+Hunspell, no precisión ni corrección de frases. Las desconocidas pueden estar
+parolas correctas que faltan, errors, nombres propios u problemas de segmentación.
+Veiga-se COBERTURA-COMMON-VOICE.md pa los denominadors y las sumas del par.
+
+La instalación y actualización real d'os paquets se prueba per aplicación,
+versión y sistema. Las versions minimas de los manifests son declarations
+de compatibilidat, no pruebas feitas en todas las versions.

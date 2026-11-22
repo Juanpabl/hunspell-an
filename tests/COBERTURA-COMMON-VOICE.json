@@ -1,0 +1,34 @@
+{
+  "version": "1.1.0",
+  "corpus": "Common Voice v25; frases_para_hunspell.txt",
+  "text_sha256": "c1c468650fd3fa907f9d00605fd3864043dc61fa2ae03606bfbd363d5db7ff5f",
+  "engine": "@(#) International Ispell Version 3.2.06 (but really Hunspell 1.7.2)",
+  "method": "Hunspell -G (recognized) and -l (unknown), same text/dictionary/options; occurrence-weighted primary coverage. Native tokenization; punctuation/numbers not reported by these modes are excluded; apostrophes may split words.",
+  "dictionary_sha256": {
+    ".dic": "2eddd5cc7acd45a8e651864b29cc5a6442114eddf900d43292fbe7bbb9dd93c6",
+    ".aff": "d0f95c548ebf994824a61fb03ebe4fd9f0099454b34a3c28e74a975934cd3dfd"
+  },
+  "coverage": {
+    "recognized_occurrences": 82817,
+    "checked_occurrences": 86783,
+    "recognized_percent": 95.42998052613991,
+    "unknown_percent": 4.5700194738600874,
+    "recognized_unique": 10545,
+    "checked_unique": 13205,
+    "recognized_unique_percent": 79.85611510791367,
+    "method": "Hunspell -G (recognized) and -l (unknown), same text/dictionary/options; occurrence-weighted primary coverage. Native tokenization; punctuation/numbers not reported by these modes are excluded; apostrophes may split words."
+  },
+  "unknown_occurrences": 3966,
+  "unknown_unique": 2660,
+  "baseline_release": {
+    "version": "1.0.0",
+    "recognized_occurrences": 80546,
+    "checked_occurrences": 86783,
+    "source": "Fresh measurement of tag v1.0.0 with the same corpus and executable",
+    "dictionary_sha256": {
+      ".dic": "733dce3919b72db3e844228733d14936ebebde5c59f6a5b49e73d47390dde69d",
+      ".aff": "78082f139ad2a43bfeae32666031a92a26e8aecf8146cd7504b78e958b7ab9ad"
+    }
+  },
+  "application_installation_tests": "Pending; native tests do not certify application installers"
+}

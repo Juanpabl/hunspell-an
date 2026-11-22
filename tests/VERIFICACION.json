@@ -6,7 +6,7 @@
   "failures": [],
   "dictionary_sha256": {
     ".dic": "2eddd5cc7acd45a8e651864b29cc5a6442114eddf900d43292fbe7bbb9dd93c6",
-    ".aff": "bf204099f83a3d6a2c99027968b13f6a47b816d4c36c81a8092321c0f9c18152"
+    ".aff": "d0f95c548ebf994824a61fb03ebe4fd9f0099454b34a3c28e74a975934cd3dfd"
   },
   "cases_sha256": "c58610db586404ff9d137993ae3bb6691263e6f17ae979fb1c4a4923042ca8f0",
   "scope": "Normal segmentation for PALABRA; temporary BREAK 0 for AFIJACION. Word-level regression tests, not grammatical or corpus precision."
